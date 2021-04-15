@@ -163,10 +163,7 @@
               >
             </p>
             <div class="content">
-              {(v =
-                repo.description.length > 100
-                  ? repo.description.slice(0, 100)
-                  : repo.description)} . . .
+              {repo.description} . . .
             </div>
           </div>
           <div class="card-footer">
